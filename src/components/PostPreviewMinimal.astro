@@ -1,0 +1,38 @@
+---
+import { dateString } from '@utils'
+import { Icon } from 'astro-icon/components'
+import type { CollectionEntry } from 'astro:content'
+import { render } from 'astro:content'
+import Tags from '@components/Tags.astro'
+import PostInfo from '@components/PostInfo.astro'
+
+interface Props {
+  post: CollectionEntry<'posts'>
+}
+
+const { post } = Astro.props
+
+const { remarkPluginFrontmatter } = await render(post)
+const description = remarkPluginFrontmatter.description || post.data.description
+---
+
+<article class="w-full -py-3 -my-1 md:my-1 border-accent/10">
+  <h1 class="-mb-1 text-base text-[var(--theme-h1)] font-semibold">
+    <a href={`/posts/${post.id}`}># {post.data.title}</a>
+  </h1>
+  <PostInfo post={post} class="my-3 text-xs" />
+<!--  {description && <p class="my-4 text-base/7 text-foreground">{description}</p>} -->
+  {
+    post.data.tags && (
+      <div class="mb-6">
+        <Tags tags={post.data.tags} />
+      </div>
+    )
+  }
+<!--  <div>
+    <a class="button flex items-center" href={`/posts/${post.id}`}>
+      leer
+      <Icon name="chevrons-right" class="size-5 ml-2" color="red"/>
+    </a>
+  </div> -->
+</article>

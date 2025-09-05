@@ -1,0 +1,60 @@
+---
+import Layout from '@layouts/Layout.astro'
+import { getSortedPosts } from '@utils'
+import { getCollection, render } from 'astro:content'
+import PostPreview from '@components/PostPreview.astro'
+import Pagination from '@components/Pagination.astro'
+import BlockHeader from '@components/BlockHeader.astro'
+import HomeBanner from '@components/HomeBanner.astro'
+import siteConfig from '../site.config'
+import TagsSection from '@components/TagsSection.astro'
+
+const home = await getCollection('home')
+let HomeContent
+let homeAvatarImage
+if (home.length > 0) {
+  const homeEntry = home[0]
+  const { Content } = await render(homeEntry)
+  HomeContent = Content
+  homeAvatarImage = homeEntry.data.avatarImage
+}
+const sortedPosts = await getSortedPosts()
+const postsHaveTags = sortedPosts.some(
+  (post) => post.data.tags && post.data.tags.length > 0,
+)
+---
+
+<Layout>
+  {
+    HomeContent && (
+      <HomeBanner avatarImage={homeAvatarImage}>
+        <HomeContent />
+      </HomeBanner>
+    )
+  }
+  {
+    postsHaveTags && (
+      <>
+        <BlockHeader>tags</BlockHeader>
+        <TagsSection posts={sortedPosts} />
+      </>
+    )
+  }
+  {
+    sortedPosts.length > 0 && (
+      <>
+        <BlockHeader>lo ultimito</BlockHeader>
+        {sortedPosts.slice(0, siteConfig.pageSize).map((post) => (
+          <PostPreview post={post} />
+        ))}
+        <Pagination nextLink="/posts" nextText="entra al blog" />
+      </>
+    )
+  }
+</Layout>
+
+<style is:global>
+  a.heading-anchor {
+    display: none !important;
+  }
+</style>

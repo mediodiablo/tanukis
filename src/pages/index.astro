@@ -32,6 +32,19 @@ const postsHaveTags = sortedPosts.some(
       </HomeBanner>
     )
   }
+
+  {
+    sortedPosts.length > 0 && (
+      <>
+        <BlockHeader>ramblings</BlockHeader>
+        {sortedPosts.slice(0, siteConfig.pageSize).map((post) => (
+          <PostPreview post={post} />
+        ))}
+        <Pagination nextLink="/posts" nextText="more" />
+      </>
+    )
+  }
+
   {
     postsHaveTags && (
       <>
@@ -40,17 +53,7 @@ const postsHaveTags = sortedPosts.some(
       </>
     )
   }
-  {
-    sortedPosts.length > 0 && (
-      <>
-        <BlockHeader>lo ultimito</BlockHeader>
-        {sortedPosts.slice(0, siteConfig.pageSize).map((post) => (
-          <PostPreview post={post} />
-        ))}
-        <Pagination nextLink="/posts" nextText="entra al blog" />
-      </>
-    )
-  }
+
 </Layout>
 
 <style is:global>

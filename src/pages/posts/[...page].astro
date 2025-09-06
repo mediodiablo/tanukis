@@ -2,7 +2,7 @@
 import type { GetStaticPaths } from 'astro'
 import Layout from '@layouts/Layout.astro'
 import { getSortedPosts } from '@utils'
-import PostPreviewsWithYear from '@components/PostPreviewsWithYear.astro'
+import PostPreviewsWithYear from '@components/PostPreviewsWithYearMinimal.astro'
 import Pagination from '@components/Pagination.astro'
 import BlockHeader from '@components/BlockHeader.astro'
 import siteConfig from '../../site.config'
@@ -10,19 +10,19 @@ import siteConfig from '../../site.config'
 // Note: Pagination like '/', '/2', '/3' only works with spread param like [...page]
 export const getStaticPaths = (async ({ paginate }) => {
   const sortedPosts = await getSortedPosts()
-  return paginate(sortedPosts, { pageSize: siteConfig.pageSize })
+  return paginate(sortedPosts, { pageSize: siteConfig.pageSizeArchive })
 }) satisfies GetStaticPaths
 
 const { page } = Astro.props
 ---
 
-<Layout title="blog" description="blog cojudeces.com">
-  <BlockHeader>el blog!</BlockHeader>
+<Layout title="posts" description="all ramblings">
+  <BlockHeader>rambling archive</BlockHeader>
   <PostPreviewsWithYear posts={page.data} />
   <Pagination
     prevLink={page.url.prev ? page.url.prev : undefined}
-    prevText="posts recientes"
+    prevText=""
     nextLink={page.url.next ? page.url.next : undefined}
-    nextText="posts viejos"
+    nextText=""
   />
 </Layout>

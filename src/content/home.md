@@ -5,4 +5,4 @@ avatarImage:
 githubCalendar: 'mediodiablo'
 ---
 
-bienvenido a cojudeces.com! compartiendo cosas inútiles y sin importancia desde el 2006.
+... tanuki san 狸 | the site and journal of just another tanuki that rambles in the night...

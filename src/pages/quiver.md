@@ -1,29 +1,23 @@
 ---
 layout: '@layouts/MarkdownLayout.astro'
-title: 'quiver y tech stack'
-description: 'inventario y orientación de nuestras herramientas'
-published: 2025-08-21
+title: 'quiver'
+description: 'quiver, uses, colophon, etc.'
+published: 2025-09-05
 updates:
 tags: ['gear-and-tech']
 slug: quiver
 type: post
-site: cojudeces.com
+site: tanuki.blog
 status: published
 ---
 
-en esta página mantenemos al día un inventario de nuestras herramientas y nuestro stack tecnológico.
+## quiver: 2025-sep
 
-Es curioso ver cómo van cambiando las cosas. A veces por simple aburrimiento, pero otras, las más interesantes, por variaciones de índole más filosófica que aleatoria. Por ejemplo, [el quiver y stack del 2021](../posts/apps-2021), visto desde el 2025, delata a un grupo de super nerds que quiere clasificar y medir todo lo observable, en nombre de la productividad y la optimización. El del 2025, esperamos que refleje a un escuadrón más curtido y pragmático.
+Trying to keep things simple and portable.
 
-## quiver y tech stack: 2025-agosto
+### web stack: astro, github, netlify
 
-Aquí vamos.
-
-### plataforma web: astro, github, netlify
-
-Esta version de cojudeces.com es un static site basado en el framework Astro. Hacemos las actualizaciones (de diseño de página y creación de nuevos posts) en una copia local en nuestra laptop. Una vez que verificamos que todo funciona bien, sincronizamos el site con un repositorio en Github. A su vez, Github se conecta con Netlify. Netlify toma el repositorio de Github y lo "sirve" a los lectores en forma de página web.
-
-El costo monetario de este stack es cero, pero nos toma más tiempo que cuando usábamos Wordpress y Ghost.
+This is a static site based on the Astro framework.
 
 ### theme: no tiene nombre aún pero lo tendrá
 

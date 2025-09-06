@@ -31,8 +31,8 @@ const title = `Tag: ${tag}`
   <PostPreviewsWithYear posts={page.data} />
   <Pagination
     prevLink={page.url.prev ? encodeURI(page.url.prev) : undefined}
-    prevText="posts recientes"
+    prevText=""
     nextLink={page.url.next ? encodeURI(page.url.next) : undefined}
-    nextText="posts viejos"
+    nextText=""
   />
 </Layout>

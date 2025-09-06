@@ -348,9 +348,12 @@ article img {
     @apply pl-2 my-2 marker:text-[var(--theme-li)] marker:-left-5;
   }
 
-  ul li {
-    @apply marker:content-['-'];
-  }
+  ul {
+  list-style-type: '- ';
+  padding-left: 1.5em;
+  
+}
+
 
   ol li {
     @apply list-decimal;

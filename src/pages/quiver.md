@@ -17,22 +17,27 @@ Trying to keep things simple and portable.
 
 ### web stack: astro, github, netlify
 
-This is a static site based on the Astro framework.
+This is a static site based on the Astro framework. I synchronize it with Github, and publish it with Netlify.
 
-### theme: no tiene nombre aún pero lo tendrá
+### theme: tanuki 0.1
 
-El theme se basa en MultiTerm, creado por StelCodes, pero modificado cada día más y más por el escuadrón. Esta secuencia de modificaciones terminará evolucionando el theme hasta el punto en el cual merezca un nombre propio. Aún no llegamos a ese punto.
+This theme is based on a freely available one called [MultiTerm](https://multiterm.stelclementine.com), created by stelcodes.
 
 ### apps
 
-- obsidian: para tomar notas y escribir blog posts
+- obsidian
 - vs code
 - feedly
 - kindle reader
-- lightroom cloud (y muy poco de photoshop)
-- final cut pro
 
 ### hardware
 
 - macbook pro (14", m4 pro)
 - iphone 16 plus
+
+### other hardware
+
+- fender stratocaster player II
+- pyzel phantom 5'11, 31L
+- pyzel gremlin 6'0, 35L
+- channel islands waterhog 7'10"

@@ -341,11 +341,11 @@ article img {
 
   ul,
   ol {
-    @apply pl-8 sm:pl-9.5;
+    @apply pl-1 sm:pl-9.5;
   }
 
   li {
-    @apply pl-2 my-4 marker:text-[var(--theme-li)] marker:-left-5;
+    @apply pl-2 my-2 marker:text-[var(--theme-li)] marker:-left-5;
   }
 
   ul li {

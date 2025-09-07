@@ -11,7 +11,7 @@ site: tanuki.blog
 status: published
 ---
 
-## quiver: 2025-sep
+#### upated: 2025-sep
 
 Trying to keep things simple and portable.
 

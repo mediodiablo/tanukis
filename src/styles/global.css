@@ -345,7 +345,7 @@ article img {
   }
 
   li {
-    @apply pl-2 my-2 marker:text-[var(--theme-li)] marker:-left-5;
+    @apply pl-2 my-0 marker:text-[var(--theme-li)] marker:-left-5;
   }
 
   ul {

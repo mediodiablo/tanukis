@@ -19,14 +19,15 @@ Today, it was Mr. Enshitification's turn with this [article castigating stock bu
 It follows a very simple narrative.
 
 ```
-buyback narrative: financial products --> finance --> money --> corporate greed --> hate the rich
+buyback narrative: financial products --> finance
+ --> money --> corporate greed --> hate the rich
 ```
 
 Who would've thought that a basic tool of corporate finance was to become radioactive material.
 
 The faulty logic (or perhaps its ignorance of basic rules of arithmetic) is amusing but dangerous because it comes charged with passion (of the wrong kind). Here's an excerpt:
 
-> Say a company has issued 1,000 shares, and they're selling at $1,000 per share. That company has a "market cap" of $1,000,000 (1,000 x 1,000). Now the company takes $500,000 out of its bank account and buys half of those shares. Now you have a million-dollar company with only 500 shares, so each of those shares is now worth $2,000 (1,000,000/500 = 2,000).
+> Say a company has issued 1,000 shares, and they're selling at $1,000 per share. That company has a "market cap" of 1,000,000 (1,000 x 1,000). Now the company takes 500,000 out of its bank account and buys half of those shares. Now you have a million-dollar company with only 500 shares, so each of those shares is now worth 2,000 (1,000,000/500 = 2,000)
 
 Doctorow understands that the share price is equal to the "market cap" divided by the number of shares, but naively fails to connect "market cap" with the value of the company itself.
 

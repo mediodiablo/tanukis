@@ -3,7 +3,7 @@ title: 'garbage logic on buybacks'
 description: 'buybacks are just a finance tool, not political plutonium'
 published: 2025-09-06
 updates:
-tags: ['finance']
+tags: ['money']
 slug: garbage-logic-on-buybacks
 type: post
 site: tanukis.blog

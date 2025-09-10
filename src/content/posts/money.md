@@ -59,6 +59,6 @@ For me, therefore, two things:
 
 The maximizer is the MBA nerd that will try squeeze every basis point of 'alpha' from his endeavours, market-related or not. Maximizing one variable, by definition, means de-emphaszing others. Life is too rich, too long, and too unpredictable to be obssesing over the wrong things.
 
-Too rich, too long, too unpredictable. Ask the Athenians the went to Piraeus to send their best to [Syracuse](https://en.wikipedia.org/wiki/Sicilian_Expedition) in the fifth century B.C.
+Too rich, too long, too unpredictable. Ask the Athenians that went to Piraeus to send their best to [Syracuse](https://en.wikipedia.org/wiki/Sicilian_Expedition) in the fifth century B.C.
 
 It's quite the paradox, but I've come to a place where financial theory is the wrong tool for personal finance.

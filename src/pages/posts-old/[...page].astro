@@ -16,7 +16,7 @@ export const getStaticPaths = (async ({ paginate }) => {
 const { page } = Astro.props
 ---
 
-<Layout title="blog" description="blog cojudeces.com">
+<Layout title="blog" description="tanuki's blog">
   <BlockHeader>el blog!</BlockHeader>
   <PostPreviewsWithYear posts={page.data} />
   <Pagination

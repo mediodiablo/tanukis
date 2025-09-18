@@ -1,15 +1,16 @@
 ---
 title: "what's with all these 'photographers'"
-description: "Then again, this year, after leisurely exploring the world of personal blogs, I noticed that many of these websites had a section dedicated to photos. A special section, as if the photos were special."
+description: 'then again, this year, after leisurely exploring the world of personal blogs, I noticed that many of these websites had a section dedicated to photos. A special section, as if the photos were special.'
 published: 2025-09-11
-updated: 
-tags: ['tech', 'ramblings'] 
+updated:
+tags: ['tech', 'ramblings']
 slug: all-these-photographers
 type: post
 site: tanukis.blog
 status: published
 ---
-They always feel like an aimless meandering, but there is a sense of direction in these observations. 
+
+They always feel like an aimless meandering, but there is a sense of direction in these observations.
 
 ## noticing it over a decade ago
 
@@ -23,16 +24,17 @@ A group of older Japanese tourists was congregated on a terrace setting up their
 
 They had traveled from wherever they came to that specific spot to take a photo ('the photo') at the golden hour. One more of a million photos taken at the same spot.
 
-What a hobby, I thought. 
+What a hobby, I thought.
 
 ## noticing again in 2025
 
-Then again, this year, after leisurely exploring the world of personal blogs, I noticed that many of these websites had a section dedicated to photos. A special section, as if the photos were special. 
+Then again, this year, after leisurely exploring the world of personal blogs, I noticed that many of these websites had a section dedicated to photos. A special section, as if the photos were special.
 
 To my untrained (but not totally novice) eye, the photos looked, in the best of cases, unremarkable, and in the cases where the photographer dubbed himself a 'street photographer', the photos looked like shit.
 
 There are some common elements:
-1. the person is a bit of a technology nerd 
+
+1. the person is a bit of a technology nerd
 2. the person is obsessed with the digital tools they use to manage their website
 3. the person likes to have full control of their website (i.e., he doesn't use one of the popular CMS like Wordpress)
 4. the person spends money regularly in photography equipment and thinks that better gear makes better photos
@@ -52,8 +54,8 @@ Here are the best parts:
 
 and,
 
-> "...what I do with my old computer is not "simple office work" or something along those lines. I recorded, produced, mixed and mastered dozens of music albums, authored eight music videos for my debut album, and did everything else — blog, website design and development, bureaucracy, email, video streaming, reading, everything. 
-The fact that a month ago I switched to a 2013 MacBook Pro — even older! — running an operating system that was released in October of that same year, and I'm still able to do the same things as above, even better in some cases, should say something."
+> "...what I do with my old computer is not "simple office work" or something along those lines. I recorded, produced, mixed and mastered dozens of music albums, authored eight music videos for my debut album, and did everything else — blog, website design and development, bureaucracy, email, video streaming, reading, everything.
+> The fact that a month ago I switched to a 2013 MacBook Pro — even older! — running an operating system that was released in October of that same year, and I'm still able to do the same things as above, even better in some cases, should say something."
 
 And this morning, I saw this in Om Malik's blog talking about Apple's launch of the iPhone 17:
 
@@ -63,8 +65,8 @@ By the way, Om checks several of the common elements mentioned above.
 
 ## back to trail
 
-With technology and neomania, we're brushing into more forested territory so, to stay on trail, let's go back to photo-taking.  
+With technology and neomania, we're brushing into more forested territory so, to stay on trail, let's go back to photo-taking.
 
-It is a fun pastime. There's plenty of gear to compare, there's the actual taking of the photo, and there's post processing. The thing is, for some reason I can't quite put my finger on, the use of the rule of thirds and application of a black-and-white filter to their photos do not make them look like Josef Koudelka's. 
+It is a fun pastime. There's plenty of gear to compare, there's the actual taking of the photo, and there's post processing. The thing is, for some reason I can't quite put my finger on, the use of the rule of thirds and application of a black-and-white filter to their photos do not make them look like Josef Koudelka's.
 
 Let's learn to play the guitar instead, a territory where lack of skill or progress is easily identified.

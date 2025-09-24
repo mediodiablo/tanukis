@@ -20,15 +20,15 @@ const description = remarkPluginFrontmatter.description || post.data.description
   <h1 class="-mb-1 text-base text-[var(--theme-h1)] font-semibold">
     <a href={`/posts/${post.id}`}># {post.data.title}</a>
   </h1>
-  <PostInfo post={post} class="my-3 text-xs" />
+  <PostInfo post={post} class="my-2 mb-5 text-xs" />
 <!--  {description && <p class="my-4 text-base/7 text-foreground">{description}</p>} -->
-  {
+<!--  {
     post.data.tags && (
       <div class="mb-6">
         <Tags tags={post.data.tags} />
       </div>
     )
-  }
+  } -->
 <!--  <div>
     <a class="button flex items-center" href={`/posts/${post.id}`}>
       leer

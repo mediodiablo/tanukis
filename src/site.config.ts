@@ -133,9 +133,9 @@ const config: SiteConfig = {
   },
   // Social links to display in the footer.
   socialLinks: {
-    github: 'https://github.com/mediodiablo',
+    // github: 'https://github.com/mediodiablo',
     // mastodon: 'https://github.com/stelcodes/multiterm-astro',
-    // email: 'https://github.com/stelcodes/multiterm-astro',
+    // email: 'mailto:tanuki@tanukisan.me',
     // linkedin: 'https://github.com/stelcodes/multiterm-astro',
     // bluesky: 'https://github.com/stelcodes/multiterm-astro',
     // twitter: 'https://github.com/stelcodes/multiterm-astro',

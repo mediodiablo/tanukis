@@ -107,38 +107,7 @@ const unresolvedStyles: TextmateStyles = {
   yellow: ['terminal.ansiYellow', 'terminal.ansiBrightYellow'],
   magenta: ['terminal.ansiMagenta', 'terminal.ansiBrightMagenta'],
   cyan: ['terminal.ansiCyan', 'terminal.ansiBrightCyan'],
-  // For Giscus syntax highlighting
-  comment: ['comment', 'punctuation.definition.comment', 'foreground'],
-  constant: ['constant.language.boolean', 'constant.language', 'foreground'],
-  entity: ['entity.name.function', 'support.function', 'function', 'foreground'],
-  entityTag: [
-    'entity.name.tag',
-    'punctuation.definition.tag',
-    'punctuation.definition.tag.html',
-    'meta.tag',
-    'foreground',
-  ],
-  keyword: [
-    'keyword',
-    'punctuation.definition.keyword',
-    'keyword.operator',
-    'foreground',
-  ],
-  string: ['string', 'string.quoted', 'string.value', 'string variable', 'foreground'],
-  variable: [
-    'variable',
-    'variable.language',
-    'variable.other',
-    'support.variable',
-    'foreground',
-  ],
-  regexp: [
-    'string.regexp',
-    'string.regexp.source',
-    'constant.other.character-class.regexp',
-    'string',
-    'foreground',
-  ],
+ 
 }
 
 export async function resolveThemeColorStyles(

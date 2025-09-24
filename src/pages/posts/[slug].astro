@@ -5,11 +5,8 @@ import { dateString, getSortedPosts } from '@utils'
 import PostPreview from '@components/PostPreview.astro'
 import DividerText from '@components/DividerText.astro'
 import { getCollection, render } from 'astro:content'
-import PostAddendum from '@components/PostAddendum.astro'
 import TableOfContents from '@components/TableOfContents.astro'
 import { Image } from 'astro:assets'
-import GiscusLoader from '@components/GiscusLoader.astro'
-import siteConfig from '../../site.config'
 import Tags from '@components/Tags.astro'
 import PostInfo from '@components/PostInfo.astro'
 
@@ -30,15 +27,7 @@ export const getStaticPaths = (async () => {
 const { post, prev, next } = Astro.props
 const postData = post.data
 const { headings, Content: PostContent } = await render(post)
-const addendum = await getCollection('addendum')
-let AddendumContent
-let addendumAvatarImage
-if (addendum.length > 0) {
-  const addendumEntry = addendum[0]
-  const { Content } = await render(addendumEntry)
-  AddendumContent = Content
-  addendumAvatarImage = addendumEntry.data.avatarImage
-}
+
 ---
 
 <Layout
@@ -79,27 +68,9 @@ if (addendum.length > 0) {
       </div>
     </div>
   </article>
- <!--
- {
-    AddendumContent && (
-      <PostAddendum avatarImage={addendumAvatarImage}>
-        <AddendumContent />
-      </PostAddendum>
-    )
-  }
-  -->
+ 
   {(prev || next) && <DividerText text="more ramblings" />}
   {prev && <PostPreview post={prev} />}
   {next && <PostPreview post={next} />}
   
-  <!--
-  {
-    siteConfig.giscus && (
-      <>
-        <DividerText text="Comments" />
-        <GiscusLoader />
-      </>
-    )
-  }
-  -->
 </Layout>

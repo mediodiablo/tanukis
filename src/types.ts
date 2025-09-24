@@ -49,16 +49,7 @@ const themeKeys = [
   'red',
   'yellow',
   'magenta',
-  'cyan',
-  // For Giscus syntax highlighting
-  'comment',
-  'constant',
-  'entity',
-  'entityTag',
-  'keyword',
-  'string',
-  'variable',
-  'regexp',
+  'cyan', 
 ] as const
 
 console.log
@@ -105,14 +96,6 @@ export type SocialLinks = {
   rss?: boolean
 }
 
-export type GiscusConfig = {
-  repo: string
-  repoId: string
-  category: string
-  categoryId: string
-  reactionsEnabled: boolean
-}
-
 export interface SiteConfig {
   site: string
   font: string
@@ -126,5 +109,4 @@ export interface SiteConfig {
   themes: ThemesConfig
   socialLinks: SocialLinks
   navLinks: NavLink[]
-  giscus: GiscusConfig | undefined
 }

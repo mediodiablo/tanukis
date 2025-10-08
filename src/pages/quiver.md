@@ -11,7 +11,7 @@ site: tanuki.blog
 status: published
 ---
 
-![surfboards on display in my backyard](../assets/2022-04-quiver-0016.jpg 'the real quiver (apr 2022)')
+![surfboards on display in my backyard](../assets/2022-04-quiver-0016.jpg 'my real quiver (apr 2022)')
 
 #### upated: 2025-sep
 

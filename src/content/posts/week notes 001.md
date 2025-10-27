@@ -7,7 +7,7 @@ tags: ['weekNotes']
 slug: week-notes-001
 type: post
 site: tanukis.blog
-status: draft
+status: published
 ---
 
 Life these days, outside of work, is about guiding the family forward, spending as much time as possible in nature, fighting the decline and fall through exercising, reading the classics, and playing with my stratocaster.

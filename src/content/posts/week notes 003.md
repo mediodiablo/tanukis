@@ -1,6 +1,6 @@
 ---
 title: 'week notes 003'
-description: 'in the last 72 hours, I have consumed more candy than in the last 72 days while reading The Aeneid'
+description: 'in the last 72 hours, I have consumed more candy than in the last 72 days'
 published: 2025-11-02
 updated:
 tags: ['weekNotes']

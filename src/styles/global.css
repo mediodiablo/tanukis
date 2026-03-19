@@ -178,6 +178,24 @@ body[data-centered='true'] {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  body[data-centered='true'] {
+    margin: 0 1.5rem;
+  }
+}
+
+@media (max-width: 512px) {
+  body[data-centered='true'] {
+    margin: 0 1.25rem;
+  }
+}
+
+@media (max-width: 375px) {
+  body[data-centered='true'] {
+    margin: 0 1rem;
+  }
+}
+
 main {
   flex: 1;
   display: flex;

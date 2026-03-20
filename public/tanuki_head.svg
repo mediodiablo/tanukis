@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="420 230 230 200">
+  <defs>
+    <filter id="p" x="-3%" y="-3%" width="106%" height="106%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="4" seed="5" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="1.8" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="ph" x="-3%" y="-3%" width="106%" height="106%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="3" seed="12" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="720" fill="#f4efe6"/>
+
+  <!-- ======== HEAD — round face ======== -->
+  <g filter="url(#p)" opacity="0.8">
+    <ellipse cx="530" cy="345" rx="78" ry="68" fill="none" stroke="#0a0a0a" stroke-width="4" transform="rotate(5,530,345)"/>
+    <ellipse cx="531" cy="346" rx="76" ry="66" fill="none" stroke="#222" stroke-width="2.2" transform="rotate(5,530,345)"/>
+  </g>
+
+  <!-- Head interior hatching -->
+  <g filter="url(#p)" opacity="0.25">
+    <line x1="480" y1="320" x2="500" y2="380" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+    <line x1="500" y1="310" x2="518" y2="375" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="520" y1="305" x2="535" y2="372" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="545" y1="308" x2="555" y2="370" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="565" y1="315" x2="572" y2="365" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- ======== EYE MASKS — dense dark patches ======== -->
+  <g filter="url(#ph)" opacity="0.92">
+    <ellipse cx="505" cy="338" rx="24" ry="20" fill="none" stroke="#050505" stroke-width="6" transform="rotate(-8,505,338)"/>
+    <ellipse cx="506" cy="339" rx="20" ry="16" fill="none" stroke="#050505" stroke-width="5" transform="rotate(-8,505,338)"/>
+    <ellipse cx="505" cy="338" rx="15" ry="12" fill="none" stroke="#0a0a0a" stroke-width="4" transform="rotate(-8,505,338)"/>
+    <ellipse cx="505" cy="338" rx="9" ry="7" fill="none" stroke="#111" stroke-width="3" transform="rotate(-8,505,338)"/>
+    <line x1="486" y1="328" x2="500" y2="352" stroke="#050505" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="493" y1="323" x2="508" y2="350" stroke="#050505" stroke-width="3" stroke-linecap="round"/>
+    <line x1="502" y1="320" x2="518" y2="348" stroke="#050505" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="512" y1="323" x2="524" y2="345" stroke="#050505" stroke-width="3" stroke-linecap="round"/>
+
+    <ellipse cx="558" cy="332" rx="22" ry="19" fill="none" stroke="#050505" stroke-width="6" transform="rotate(8,558,332)"/>
+    <ellipse cx="559" cy="333" rx="18" ry="15" fill="none" stroke="#050505" stroke-width="5" transform="rotate(8,558,332)"/>
+    <ellipse cx="558" cy="332" rx="13" ry="11" fill="none" stroke="#0a0a0a" stroke-width="4" transform="rotate(8,558,332)"/>
+    <ellipse cx="558" cy="332" rx="7" ry="6" fill="none" stroke="#111" stroke-width="3" transform="rotate(8,558,332)"/>
+    <line x1="540" y1="322" x2="555" y2="348" stroke="#050505" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="548" y1="318" x2="562" y2="345" stroke="#050505" stroke-width="3" stroke-linecap="round"/>
+    <line x1="556" y1="316" x2="572" y2="342" stroke="#050505" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="564" y1="320" x2="576" y2="340" stroke="#050505" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Eyes — bright spots -->
+  <g filter="url(#p)">
+    <circle cx="505" cy="336" r="5.5" fill="#050505"/>
+    <circle cx="558" cy="330" r="5.5" fill="#050505"/>
+    <circle cx="507" cy="334" r="2.2" fill="#f4efe6"/>
+    <circle cx="560" cy="328" r="2.2" fill="#f4efe6"/>
+  </g>
+
+  <!-- Nose bridge -->
+  <g filter="url(#p)" opacity="0.65">
+    <path d="M525,345 L530,358" stroke="#0a0a0a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M527,346 L532,360" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Nose -->
+  <g filter="url(#p)" opacity="0.9">
+    <ellipse cx="532" cy="365" rx="10" ry="7" fill="#050505"/>
+    <circle cx="534" cy="363" r="1.5" fill="#333"/>
+  </g>
+
+  <!-- Mouth -->
+  <g filter="url(#p)" opacity="0.5">
+    <path d="M524,372 C528,380 533,382 540,377" fill="none" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Cheek fur -->
+  <g filter="url(#p)" opacity="0.45">
+    <path d="M468,358 C458,368 455,385 462,398" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    <path d="M470,362 C460,372 458,388 464,400" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+    <path d="M590,348 C600,358 604,375 598,390" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    <path d="M588,352 C598,362 602,378 596,392" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- ======== EARS ======== -->
+  <g filter="url(#p)" opacity="0.75">
+    <path d="M488,295 C480,270 488,252 502,258 C512,264 512,282 508,298" fill="none" stroke="#0a0a0a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M490,297 C483,274 490,257 501,261" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M565,286 C570,262 582,252 592,258 C600,266 596,284 588,298" fill="none" stroke="#0a0a0a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M567,289 C572,268 583,256 591,261" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#p)" opacity="0.4">
+    <line x1="492" y1="278" x2="504" y2="285" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="495" y1="270" x2="506" y2="278" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+    <line x1="574" y1="272" x2="588" y2="280" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="577" y1="265" x2="590" y2="274" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Whiskers -->
+  <g filter="url(#p)" opacity="0.3">
+    <line x1="465" y1="358" x2="428" y2="352" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="463" y1="368" x2="425" y2="370" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="466" y1="378" x2="430" y2="388" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="598" y1="350" x2="635" y2="342" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="596" y1="360" x2="638" y2="358" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="595" y1="370" x2="632" y2="380" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+</svg>
